@@ -25,15 +25,16 @@ const Projects = () => {
                 </motion.div>
 
                 <motion.div 
+
                   whileInView={{ opacity: 1, x: 0}}
                   initial={{ opacity:0, x:-100 }}
                   transition={{ duration: 1 }}
                   className='w-full max-w-xl lg:w-3/4'>
 
-                    <h3 className='mb-2 font-semibold text-2xl'>{project.title}</h3>
+                    <a href="https://portfolio-nine-azure-99.vercel.app/"> <h3 className='mb-2 font-semibold text-2xl cursor-pointer'>{project.title}</h3></a>
 
                     <p className='mb-4 text-stone-400'>{project.description}</p>
-
+                    
                     {project.technologies.map((tech, index) => (
                         <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300' key={index}>
                             {tech}
