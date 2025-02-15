@@ -46,7 +46,7 @@ export const EXPERIENCES = [
 export const EDUCATION = [
   {
     year: "2018 - 2025 (In view)",
-    role: "BACHELORS SCIENCE IN COPUTER SCIENCE",
+    role: "BACHELOR OF SCIENCE IN COPUTER SCIENCE",
     company: "Nasarawa State University.",
    
 
