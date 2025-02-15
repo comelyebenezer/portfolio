@@ -6,7 +6,10 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { TbBrandTailwind } from "react-icons/tb";
 import { TbBrandJavascript } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
+
 import { motion } from 'framer-motion';
+import { a } from 'framer-motion/client';
 
 
 const iconVariants = (duration) => ({
@@ -91,6 +94,14 @@ const Technologies = () => {
                     variants = {iconVariants(7)} 
                     className='p-4'>
                     <BiLogoPostgresql className='text-7xl text-sky-700' />
+                </motion.div>
+
+                <motion.div 
+                    initial = "initial"
+                    animate = "animate"
+                    variants = {iconVariants(3)} 
+                    className='p-4'>
+                    <FaGithub  className='text-7xl text-sky-700' />
                 </motion.div>
         </motion.div>
     </div>

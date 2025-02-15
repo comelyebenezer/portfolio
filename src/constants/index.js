@@ -1,7 +1,11 @@
+import React from 'react'
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import { MdOpenInNew } from "react-icons/md";
+import { a } from 'framer-motion/client';
+
 
 export const HERO_CONTENT = `I'm a detail-oriented Front-End Developer with a strong foundation in Computer Science, passionate about building intuitive and high-performance web applications. Skilled in modern front-end technologies, I focus on creating seamless user experiences with clean, efficient code. Adaptable and always eager to learn, I stay updated with industry trends to deliver innovative solutions.`;
 
@@ -13,7 +17,8 @@ export const EXPERIENCES = [
     role: "Senior Full Stack Developer",
     company: "Google Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB", 
+    ],
   },
   {
     year: "2022 - 2023",
@@ -37,6 +42,40 @@ export const EXPERIENCES = [
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
+
+export const EDUCATION = [
+  {
+    year: "2018 - 2025 (In view)",
+    role: "BACHELORS SCIENCE IN COPUTER SCIENCE",
+    company: "Nasarawa State University.",
+   
+
+  },
+
+  {
+    year: "2022 - 2024",
+    role: "PYTHON FOR SOFTWARE ENGINEERING ",
+    company: "Udemy.",
+   
+  },
+
+  {
+    year: "2023 - 2024",
+    role: "FULL-STACK WEB DEVELOPMENT ",
+    company: "Udemy.",
+  
+  },
+
+  {
+    year: "2023 - 2024",
+    role: "AI CAREER ESSENTIALS ",
+    company: "alx.",
+   
+  },
+
+
+];
+
 
 export const PROJECTS = [
   {
@@ -70,7 +109,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Whole Person Academy Arab Road Kubwa FCT Abuja ",
+  address: "Whole Person Academy Arab Road Kubwa, FCT - Abuja. Postal code - 901002",
   phoneNo: "+2348121156671  +2348133693087 ",
   email: "comely.jr@gmail.com",
 };

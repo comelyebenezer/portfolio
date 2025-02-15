@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from "../assets/comelylogo.webp"
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { MdOutlineMail } from "react-icons/md";
+
 
 const Navbar = () => {
   return (
@@ -24,6 +26,11 @@ const Navbar = () => {
             <a href="https://wa.me/08133693087" 
                 target='blank' rel='noopener noreferrer' aria-label='Whatsapp'>
                 <FaWhatsapp />
+            </a>
+
+            <a href="mailto:comely.jr@gmail.com" 
+                target='blank' rel='noopener noreferrer' aria-label='Gmail'>
+                <MdOutlineMail  />
             </a>
 
         </div>
