@@ -13,40 +13,32 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB", 
-    ],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2022 - 2024",
+    role: "Front-End Developer",
+    company: "NewsBar Communication",
+    description: `Developed and maintained responsive user interfaces using React and Tailwind CSS, ensuring cross-browser compatibility and optimal performance. Translated UI/UX designs into interactive web components with clean, maintainable code. Collaborated with backend teams to integrate APIs seamlessly. Utilized GitHub for version control and effective team collaboration.`,
+    technologies: ["HTML", "CSS", "React", "Tailwind","GitHub"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Web Developer",
+    company: "Freelance",
+    description: ` Designed, developed, and maintained responsive web applications using JavaScript, HTML, and CSS. Built dynamic user interfaces with Bootstrap, ensuring cross-browser compatibility and optimal performance. Collaborated with cross-functional teams to deliver high-quality products within deadlines. Managed version control and streamlined development workflows using GitHub. `,
+    technologies: ["Javascript", "HTML", "CSS", "Bootstrap", "GitHub"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2017 - 2020",
+    role: "Electrician / Departmental Admin",
+    company: "Nairda",
+    description: ` Assisted in electrical installations, maintenance, and troubleshooting in a construction environment. Coordinated departmental administrative tasks, including document management and scheduling, using MS Office. Collaborated with engineers to support project planning and execution. Utilized Canva for creating reports and presentations. `,
+    technologies: ["Ms Office", "Canva", "Python"],
   },
 ];
 
 export const EDUCATION = [
   {
     year: "2018 - 2025 (In view)",
-    role: "BACHELOR OF SCIENCE IN COPUTER SCIENCE",
+    role: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
     company: "Nasarawa State University.",
    
 
@@ -67,7 +59,7 @@ export const EDUCATION = [
   },
 
   {
-    year: "2023 - 2024",
+    year: "2024 - 2024",
     role: "AI CAREER ESSENTIALS ",
     company: "alx.",
    

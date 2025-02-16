@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 function Contactform() {
   return (
-<section className="py-6 mt-10 dark:bg-gray-100 dark:text-gray-900">
+<section className="py-6 mt-10 dark:bg-gray-100 dark:text-black">
 
     <div className='border-t border-stone-900 pb-5'>
         <motion.h2 
@@ -65,25 +65,52 @@ function Contactform() {
 
 			</div>
 		</div>
-            <motion.form 
-                whileInView={{ opacity: 1, x: 0}}
-                initial={{ opacity:0, x:-100 }}
-                transition={{ duration: 1 }} 
-                noValidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
-                    <label className="block">
-                        <span className="mb-1">Full name</span>
-                        <input type="text" placeholder="Comely Ebenezer" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
-                    </label>
-                    <label className="block">
-                        <span className="mb-1">Email address</span>
-                        <input type="email" placeholder="comely.jr@gmail.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
-                    </label>
-                    <label className="block">
-                        <span className="mb-1">Message</span>
-                        <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"></textarea>
-                    </label>
-                    <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600">Submit</button>
-            </motion.form>
+        <form  
+    action="https://formspree.io/f/mvgzwdzv" 
+    method="POST" 
+    className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
+>
+    <label htmlFor="fullName" className="block">
+        <span className="mb-1">Full name</span>
+        <input 
+            type="text" 
+            id="fullName" 
+            name="fullName"
+            placeholder="Comely Ebenezer" 
+            className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 dark:bg-gray-100 text-black" 
+            required 
+        />
+    </label>
+    <label htmlFor="email" className="block">
+        <span className="mb-1">Email address</span>
+        <input 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="comely.jr@gmail.com" 
+            className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 dark:bg-gray-100 text-black" 
+            required 
+        />
+    </label>
+    <label htmlFor="message" className="block">
+        <span className="mb-1">Message</span>
+        <textarea 
+            rows="3" 
+            id="message" 
+            name="message"
+            className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-600 dark:bg-gray-100 text-black" 
+            required 
+        ></textarea>
+    </label>
+    <button 
+        type="submit" 
+        className="self-center px-8 py-3 text-lg rounded focus:ring hover:bg-white hover:text-black focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:ring-violet-600"
+    >
+        Submit
+    </button>
+</form>
+
+
 	</div>
 </section>  )
 }
