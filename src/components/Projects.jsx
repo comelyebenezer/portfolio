@@ -2,12 +2,7 @@ import React from 'react';
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
 
-const projectLinks = [
-  'https://comelyebenezer.github.io/ipunisexsalon/',
-  'https://comelyebenezer.github.io/bootstrapweblayout/',
-  'https://portfolio-nine-azure-99.vercel.app/',
-  'https://comelyebenezer.github.io/drum-kit/'
-];
+
 
 const Projects = () => {
   return (
@@ -44,7 +39,7 @@ const Projects = () => {
               className='w-full max-w-xl lg:w-3/4'>
               
               <a 
-                href={projectLinks[index]} 
+                href={project.projectLinks[index]} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className='text-white hover:underline'
