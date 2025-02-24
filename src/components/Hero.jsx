@@ -16,8 +16,6 @@ const childVaraints = {
 }
 
 
-
-
 const Hero = () => {
   return (
     <div className='pb-4 lg:mb-36'>
