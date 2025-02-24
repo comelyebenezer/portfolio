@@ -54,7 +54,7 @@ const Hero = () => {
 
                             <motion.a 
                             variants={childVaraints} 
-                                href="/resume.pdf" target='blank' rel='noopener noreferrer' download 
+                                href="/COMELY EBENEZER CV.pdf" target='blank' rel='noopener noreferrer' download 
                                 className='bg-white rounded-md p-4 text-sm text-stone-800 mb-10'>Download Resume</motion.a>
                 </motion.div>
             </div>
