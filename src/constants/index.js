@@ -15,21 +15,21 @@ export const EXPERIENCES = [
   {
     year: "2022 - 2024",
     role: "Front-End Developer",
-    company: "NewsBar Communication",
+    company: "NewsBar Communication - Abuja (Nigeria)",
     description: `Developed and maintained responsive user interfaces using React and Tailwind CSS, ensuring cross-browser compatibility and optimal performance. Translated UI/UX designs into interactive web components with clean, maintainable code. Collaborated with backend teams to integrate APIs seamlessly. Utilized GitHub for version control and effective team collaboration.`,
     technologies: ["HTML", "CSS", "React", "Tailwind","GitHub"],
   },
   {
     year: "2021 - 2022",
-    role: "Web Developer",
-    company: "Freelance",
+    role: "Intern - Web Developer",
+    company: "NewsBar Communication - Abuja (Nigeria)",
     description: ` Designed, developed, and maintained responsive web applications using JavaScript, HTML, and CSS. Built dynamic user interfaces with Bootstrap, ensuring cross-browser compatibility and optimal performance. Collaborated with cross-functional teams to deliver high-quality products within deadlines. Managed version control and streamlined development workflows using GitHub. `,
     technologies: ["Javascript", "HTML", "CSS", "Bootstrap", "GitHub"],
   },
   {
     year: "2017 - 2020",
-    role: "Electrician / Departmental Admin",
-    company: "Nairda",
+    role: "Electrician / Departmental Admin ",
+    company: "Nairda - Abuja (Nigeria)",
     description: ` Assisted in electrical installations, maintenance, and troubleshooting in a construction environment. Coordinated departmental administrative tasks, including document management and scheduling, using MS Office. Collaborated with engineers to support project planning and execution. Utilized Canva for creating reports and presentations. `,
     technologies: ["Ms Office", "Canva", "Python"],
   },
@@ -71,39 +71,30 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    projectLinks:  'https://comelyebenezer.github.io/ipunisexsalon/',
-
-  },
-  {
-    title: "Task Management App",
+    title: "Cyber Truck Website ",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    projectLinks: 'https://comelyebenezer.github.io/bootstrapweblayout/',
+      "I built and deployed a full-stack Cyber Truck website using React to deliver a dynamic and responsive UI. I utilized Tailwind CSS for modern and efficient styling, implemented Drizzle ORM for streamlined database management and queries, and integrated Clerk for secure authentication and user management. Additionally, I ensured optimal performance and scalability by applying best development practices.",
+    technologies: ["HTML", "CSS", "Javascript", "React", "PostgreSQL"],
+    projectLinks: 'https://cybertruckcars.netlify.app/',
 
   },
   {
-    title: "Portfolio Website",
+    title: "Quick-Pad Web App ",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information. ",
+      "I built Quick-Pad using React to provide a fast and interactive user experience. I designed a responsive interface suitable for both desktop and mobile users. To manage state and navigation efficiently, I utilized React hooks and React Router. Additionally, I optimized performance and ensured cross-browser compatibility for a seamless user experience. ",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    projectLinks:  'https://portfolio-nine-azure-99.vercel.app/',
+    projectLinks:  'https://quickpad.netlify.app/',
 
   },
   {
-    title: "Blogging Platform",
+    title: "Unisex Salon Website ",
     image: project4, 
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React", "Express", "mySQL"],
-    projectLinks:  'https://comelyebenezer.github.io/drum-kit/',
+      "I designed and developed a responsive website for a unisex salon to enhance online visibility and customer engagement. I implemented modern UI/UX design principles using HTML, CSS, and JavaScript, ensuring a seamless user experience. The website includes features such as service listings, contact forms, and location details to improve customer interaction. I ensured cross-browser compatibility and mobile responsiveness for optimal performance on various devices. Additionally, I optimized website speed and accessibility, enhancing user satisfaction and retention..",
+    technologies: ["HTML", "CSS", "Javascript"],
+    projectLinks:  'https://comelyebenezer.github.io/ipunisexsalon/',
 
   },
 ];

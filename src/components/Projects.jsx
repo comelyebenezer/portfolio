@@ -39,7 +39,7 @@ const Projects = () => {
               className='w-full max-w-xl lg:w-3/4'>
               
               <a 
-                href={project.projectLinks[index]} 
+                href={project.projectLinks} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className='text-white hover:underline'
