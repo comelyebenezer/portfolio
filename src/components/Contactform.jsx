@@ -77,7 +77,7 @@ function Contactform() {
                     id="fullName" 
                     name="fullName"
                     placeholder="Comely Ebenezer" 
-                    className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 dark:bg-gray-100 text-black" 
+                    className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-white dark:bg-gray-100 text-black" 
                     required 
                 />
             </label>
@@ -88,7 +88,7 @@ function Contactform() {
                     id="email" 
                     name="email"
                     placeholder="comely.jr@gmail.com" 
-                    className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 dark:bg-gray-100 text-black" 
+                    className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-white dark:bg-gray-100 text-black" 
                     required 
                 />
             </label>
@@ -98,13 +98,13 @@ function Contactform() {
                     rows="3" 
                     id="message" 
                     name="message"
-                    className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-600 dark:bg-gray-100 text-black" 
+                    className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-white dark:bg-gray-100 text-black" 
                     required 
                 ></textarea>
             </label>
             <button 
                 type="submit" 
-                className="self-center px-8 py-3 text-lg rounded focus:ring hover:bg-white hover:text-black focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:ring-violet-600"
+                className="self-center px-8 py-3 text-lg rounded focus:ring hover:bg-white hover:text-black focus:ring-opacity-75 dark:bg-white dark:text-gray-50 focus:ring-white"
             >
                 Submit
             </button>
