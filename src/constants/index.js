@@ -76,7 +76,7 @@ export const PROJECTS = [
     description:
       "I built and deployed a full-stack Cyber Truck website using React to deliver a dynamic and responsive UI. I utilized Tailwind CSS for modern and efficient styling, implemented Drizzle ORM for streamlined database management and queries, and integrated Clerk for secure authentication and user management. Additionally, I ensured optimal performance and scalability by applying best development practices.",
     technologies: ["HTML", "CSS", "Javascript", "React", "PostgreSQL"],
-    projectLinks: 'https://cybertruckcars.netlify.app/',
+    projectLinks: 'https://carsite-cybertruck.vercel.app/',
 
   },
   {
